@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+// struct student{
+//     int roll;                 // iska matlab you dont need to writ all struct student type 
+//     int marks;                   what whould you define on line no.14
+//     string name;
+// };
+typedef struct student
+{
+    int roll;
+    int marks;
+    string name;
+
+}st;
+ int main()
+{   st naitik;                  //now you can write only st naitik
+   // struct student naitik;   //naitik is an Object 
+    naitik.roll = 545;
+    naitik.marks = 88;
+    naitik.name ="anuj";
+        cout << "the roll->" <<naitik.roll<<endl << "the marks is->"<<naitik.marks<<endl<<"the name is anuj ->"<<naitik.name<<endl;
+
+    return 0;
+}
